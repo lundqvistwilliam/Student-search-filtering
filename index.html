@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student search application</h1>
+    <div>
+        <h2>Education</h2>
+    <label for="allProgrammes">All</label>
+    <input type="radio" name="programme" id="allProgrammes" value="all" checked>
+    
+    <label for="frontend">Frontend</label>
+    <input type="radio" name="programme" value="Frontend" id="frontend">
+    
+    <label for="java">Java dev</label>
+    <input type="radio" name="programme" value="Java developer" id="java">
+    
+    <label for="ux">UX</label>
+    <input type="radio" name="programme" value="UX" id="ux">
+
+    <label for="app">App dev</label>
+    <input type="radio" name="programme" value="App dev" id="app">
+    </div>
+
+    <div>
+        <label for="teacherCheck!">I'm a teacher!</label>
+        <input type="checkbox" name="" id="teacherCheck">
+    </div>
+    <div>
+        <h2>City</h2>
+        <label for="allCities">All</label>
+        <input type="radio" name="city" id="" value="all" checked>
+
+        <label for="stockholm">Stockholm</label>
+        <input type="radio" name="city" id="" value="Stockholm">
+       
+        <label for="kalmar">Kalmar</label>
+        <input type="radio" name="city" id="" value="Kalmar">
+
+        <label for="malmoe">Malmö</label>
+        <input type="radio" name="city" id="" value="Malmö">
+    </div>
+    <div>
+        <label for="year">Year</label>
+        <select name="year" id="year">
+            <option>All</option>
+            <option>1</option>
+            <option>2</option>
+        </select>    
+    </div>
+
+    <div>
+        <button id="showStudents">Show students</button>
+    </div>
+    
+
+    <ul id="results"></ul>
+    
+    
+    
+    
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
